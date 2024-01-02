@@ -76,7 +76,7 @@ export class AddEditProductComponent implements OnInit{
       this.loading = false;
       this.toastr.success(`Salvo com suvesso o produto ${product.nome}`, 'Produto salvo');
       this.router.navigate(['/']);
-    })
+    }) 
     }
 
     
